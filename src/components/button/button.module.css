@@ -1,0 +1,9 @@
+.button {
+  background-color: var(--primary-main);
+  padding: var(--size-1) var(--size-6);
+}
+
+.button-text {
+  color: white;
+  font-weight: bold;
+}

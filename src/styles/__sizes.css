@@ -1,0 +1,24 @@
+:root {
+  --ratio: 0.5rem;
+
+  --size-05: calc(var(--ratio) * 0.5);
+  --size-10: calc(var(--ratio) * 1.0);
+  --size-15: calc(var(--ratio) * 1.5);
+  --size-20: calc(var(--ratio) * 2.0);
+  --size-25: calc(var(--ratio) * 2.5);
+  --size-30: calc(var(--ratio) * 3.0);
+  --size-35: calc(var(--ratio) * 3.5);
+  --size-40: calc(var(--ratio) * 4.0);
+  --size-45: calc(var(--ratio) * 4.5);
+  --size-50: calc(var(--ratio) * 5.0);
+  --size-55: calc(var(--ratio) * 5.5);
+  --size-60: calc(var(--ratio) * 6.0);
+  --size-65: calc(var(--ratio) * 6.5);
+  --size-70: calc(var(--ratio) * 7.0);
+  --size-75: calc(var(--ratio) * 7.5);
+  --size-80: calc(var(--ratio) * 8.0);
+  --size-85: calc(var(--ratio) * 8.5);
+  --size-90: calc(var(--ratio) * 9.0);
+  --size-95: calc(var(--ratio) * 9.5);
+  --size-100: calc(var(--ratio) * 10);
+}
