@@ -1,39 +1,40 @@
 :root {
-  --background: #79ffb1;
-  --surface: #79ffb1;
-  --accent: #79ffb1;
+  --background: #ffffff;
+  --background-contrast-text: #202327;
 
-  --text-light: #aaaaaa;
-  --text-main: #444444;
-  --text-dark: rgb(0, 0, 0);
+  --surface: #F1F2FA;
+  --surface-contrast-text: #202327;
 
-  --primary-light: #fa8c6e;
-  --primary-main: #ff3600;
-  --primary-dark: #942202;
+  --accent: #E7E9F7;
+  --accent-contrast-text: #202327;
+
+  --primary-light: #1e35c9;
+  --primary-main: #1226AA;
+  --primary-dark: #0d1b77;
   --primary-contrast-text: #ffffff;
 
-  --secondary-light: #6060fc;
-  --secondary-main: #0000ff;
-  --secondary-dark: #010177;
+  --secondary-light: #273070;
+  --secondary-main: #121A52;
+  --secondary-dark: #070b30;
   --secondary-contrast-text: #ffffff;
 
-  --status-error-light: #fca48e;
-  --status-error-main: #ff3300;
-  --status-error-dark: #701801;
+  --status-error-light: #FFEAED;
+  --status-error-main: #CD1812;
+  --status-error-dark: #870F00;
   --status-error-contrast-text: #ffffff;
 
-  --status-info-light: #67c2ff;
-  --status-info-main: #0099ff;
-  --status-info-dark: #055e99;
-  --status-info-contrast-text: #ffffff;
+  --status-info-light: #83dcff;
+  --status-info-main: #26C3FF;
+  --status-info-dark: #1497ca;
+  --status-info-contrast-text: #202327;
 
-  --status-warning-light: #fffea7;
-  --status-warning-main: #fffb00;
-  --status-warning-dark: #a19f01;
+  --status-warning-light: #FDF8C8;
+  --status-warning-main: #FFBA33;
+  --status-warning-dark: #7C6600;
   --status-warning-contrast-text: #000000;
 
-  --status-success-light: #79ffb1;
-  --status-success-main: #00ff6a;
-  --status-success-dark: #00af49;
-  --status-success-contrast-text: #000000;
+  --status-success-light: #CDECCD;
+  --status-success-main: #1C8747;
+  --status-success-dark: #004A1E;
+  --status-success-contrast-text: #202327;
 }

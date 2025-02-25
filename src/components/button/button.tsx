@@ -1,16 +1,22 @@
+import { Children, ReactNode } from "react";
 import styles from "./button.module.css";
 
-const Button = () => {
-  const hasIconBefore: boolean = false;
-  const hasIconAfter: boolean = false;
+interface ButtonProperties {
+  children?: ReactNode;
+  iconBefore?: string;
+  iconAfter?: string;
+}
+
+const Button = (properties: ButtonProperties) => {
+  const { children, iconBefore, iconAfter } = properties;
 
   return (
     <button className={styles["button"]} onClick={() => alert("holu")}>
-      {hasIconBefore && <span className={styles["button-text"]}>hasIconBefore</span>}
-      <span className={styles["button-text"]}>Alert</span>
-      {hasIconAfter && <span className={styles["button-text"]}>hasIconAfter</span>}
+      {iconBefore && <span>{iconBefore}</span>}
+      {children && <span className={styles["button-text"]}>{children}</span>}
+      {iconAfter && <span>{iconAfter}</span>}
     </button>
   );
-}
+};
 
 export default Button;

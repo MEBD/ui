@@ -1,0 +1,87 @@
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.subtitle,
+.subtitleVariant,
+.body,
+.bodyVariant {
+  color: inherit;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-family: var(--font-family-for-heading);
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-bold);
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "YTLC" 500;
+}
+
+.subtitle,
+.subtitleVariant,
+.body,
+.bodyVariant {
+  font-family: var(--font-family-for-body);
+  font-optical-sizing: auto;
+  font-weight: var(--font-weight-regular);
+  font-style: normal;
+}
+
+.h1 {
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height-h1);
+}
+
+.h2 {
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-h2);
+}
+
+.h3 {
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height-h3);
+}
+
+.h4 {
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height-h4);
+}
+
+.h5 {
+  font-size: var(--font-size-h5);
+  line-height: var(--line-height-h5);
+}
+
+.h6 {
+  font-size: var(--font-size-h6);
+  line-height: var(--line-height-h6);
+}
+
+.subtitle {
+  font-size: var(--font-size-subtitle);
+  line-height: var(--line-height-subtitle);
+}
+
+.subtitleVariant {
+  font-size: var(--font-size-subtitle-variant);
+  line-height: var(--line-height-subtitle-variant);
+}
+
+.body {
+  font-size: var(--font-size-body);
+  line-height: var(--line-height-body);
+}
+
+.bodyVariant {
+  font-size: var(--font-size-body-variant);
+  line-height: var(--line-height-body-variant);
+}
