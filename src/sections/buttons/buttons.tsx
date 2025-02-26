@@ -4,9 +4,27 @@ import Typography from "../../components/typography/typography";
 const ButtonsSection = () => {
   return (
     <section>
-      <Typography type="h1">Buttons</Typography>
+      <Typography variant="h1">Buttons</Typography>
       <hr />
-      <Button>Default</Button>
+      <article>
+        <Button>Default</Button>
+      </article>
+      <article>
+        <Button variant="filled" size="small">
+          Size small
+        </Button>
+        <Button variant="filled" size="medium">
+          Size medium
+        </Button>
+        <Button variant="filled" size="large">
+          Size large
+        </Button>
+      </article>
+      <article>
+        <Button variant="default">Variant default</Button>
+        <Button variant="filled">Variant filled</Button>
+        <Button variant="outlined">Variant outlined</Button>
+      </article>
     </section>
   );
 };

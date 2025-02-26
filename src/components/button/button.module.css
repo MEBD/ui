@@ -1,9 +1,36 @@
-.button {
-  background-color: var(--primary-main);
-  padding: var(--size-1) var(--size-6);
+.base {
+  margin: var(--size-05);
 }
 
-.button-text {
-  color: black;
-  font-weight: bold;
+.default {
+  background: var(--surface);
+  color: var(--surface-contrast-text);
+}
+
+.filled {
+  background: var(--primary-main);
+  color: var(--primary-contrast-text);
+}
+
+.outlined {
+  background: var(--surface);
+  color: var(--primary-main);
+  border-color: var(--primary-main);
+  border-width: var(--size-border-radius-width);
+  border-style: solid;
+}
+
+.small {
+  border-radius: var(--size-border-radius-small);
+  padding: var(--size-05) var(--size-15);
+}
+
+.medium {
+  border-radius: var(--size-border-radius-medium);
+  padding: var(--size-10) var(--size-30);
+}
+
+.large {
+  border-radius: var(--size-border-radius-large);
+  padding: var(--size-15) var(--size-45);
 }

@@ -5,9 +5,14 @@
 .h5,
 .h6,
 .subtitle,
-.subtitleVariant,
+.subtitle-variant,
 .body,
-.bodyVariant {
+.body-variant,
+.caption,
+.caption-variant,
+.call-to-action-large,
+.call-to-action-medium,
+.call-to-action-small {
   color: inherit;
 }
 
@@ -16,7 +21,10 @@
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6,
+.call-to-action-large,
+.call-to-action-medium,
+.call-to-action-small {
   font-family: var(--font-family-for-heading);
   font-optical-sizing: auto;
   font-weight: var(--font-weight-bold);
@@ -29,7 +37,9 @@
 .subtitle,
 .subtitleVariant,
 .body,
-.bodyVariant {
+.bodyVariant,
+.caption,
+.captionVariant {
   font-family: var(--font-family-for-body);
   font-optical-sizing: auto;
   font-weight: var(--font-weight-regular);
@@ -84,4 +94,29 @@
 .bodyVariant {
   font-size: var(--font-size-body-variant);
   line-height: var(--line-height-body-variant);
+}
+
+.caption {
+  font-size: var(--font-size-caption);
+  line-height: var(--line-height-caption);
+}
+
+.caption-variant {
+  font-size: var(--font-size-caption-variant);
+  line-height: var(--line-height-caption-variant);
+}
+
+.call-to-action-large {
+  font-size: var(--font-size-call-to-action-large);
+  line-height: var(--line-height-call-to-action-large);
+}
+
+.call-to-action-medium {
+  font-size: var(--font-size-call-to-action-medium);
+  line-height: var(--line-height-call-to-action-medium);
+}
+
+.call-to-action-small {
+  font-size: var(--font-size-call-to-action-small);
+  line-height: var(--line-height-call-to-action-small);
 }
